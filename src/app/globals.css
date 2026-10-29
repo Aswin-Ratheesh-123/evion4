@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-outfit: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-plus-jakarta: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-poster: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  
+  /* EVION Turquoise-to-Neon-Green Design System */
+  --evion-turquoise: #08DCC5;
+  --evion-cyan: #00EBC0;
+  --evion-neon-green: #00E85A;
+  --evion-gradient: linear-gradient(
+    100deg,
+    #08DCC5 0%,
+    #00EBC0 48%,
+    #00E85A 100%
+  );
+  --evion-gradient-hover: linear-gradient(
+    100deg,
+    #19e0cb 0%,
+    #1aedc5 48%,
+    #1ee96c 100%
+  );
+  --evion-text: #071A16;
+  --evion-background: #FFFFFF;
+  --evion-surface: #F5F8F6;
+  --evion-border: #DCE7E2;
+  --evion-muted: #606D68;
+
+  --primary-bg: #FFFFFF;
+  --secondary-bg: #F5F8F6;
+  --primary-text: #071A16;
+  --secondary-text: #606D68;
+  --electric-green: #00E85A;
+  --electric-green-deep: #00C94D;
+  --electric-green-mint: #E6FBF0;
+  --electric-cyan: #08DCC5;
+  --electric-cyan-light: #00EBC0;
+  --light-border: #DCE7E2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+/* Lenis smooth scrolling integration */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+  font-family: var(--font-outfit), var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #FFFFFF;
+  color: #071A16;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F8F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCE7E2;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #08DCC5;
+}
+
+/* EVION Button System */
+.btn-evion-primary {
+  background: var(--evion-gradient);
+  color: #071A16;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 18px;
+  box-shadow: 0 4px 20px -2px rgba(8, 220, 197, 0.35), 0 2px 10px rgba(0, 232, 90, 0.25);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-evion-primary:hover {
+  background: var(--evion-gradient-hover);
+  box-shadow: 0 0 30px rgba(8, 220, 197, 0.5), 0 8px 25px -4px rgba(0, 232, 90, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-evion-secondary {
+  background: #FFFFFF;
+  color: #071A16;
+  font-weight: 600;
+  border: 1px solid #DCE7E2;
+  border-radius: 18px;
+  box-shadow: 0 2px 10px rgba(7, 26, 22, 0.04);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-evion-secondary:hover {
+  background: #F5F8F6;
+  border-color: #08DCC5;
+  color: #071A16;
+  transform: translateY(-2px);
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(220, 231, 226, 0.85);
+}
+
+.glass-panel-elevated {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(8, 220, 197, 0.3);
+  box-shadow: 0 20px 50px -10px rgba(7, 26, 22, 0.08), 0 0 25px rgba(8, 220, 197, 0.15);
+}
+
+.glass-panel-dark {
+  background: rgba(7, 26, 22, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 24px 60px -12px rgba(0, 0, 0, 0.5), 0 0 30px rgba(8, 220, 197, 0.2);
+}
+
+/* Glow effects */
+.glow-evion {
+  box-shadow: 0 0 25px rgba(8, 220, 197, 0.45), 0 0 45px rgba(0, 232, 90, 0.25);
+}
+
+.glow-green {
+  box-shadow: 0 0 25px rgba(0, 232, 90, 0.45);
+}
+
+.glow-green-sm {
+  box-shadow: 0 0 14px rgba(0, 232, 90, 0.35);
+}
+
+.glow-cyan-sm {
+  box-shadow: 0 0 14px rgba(8, 220, 197, 0.35);
+}
+
+/* Gradients */
+.text-gradient-evion {
+  background: linear-gradient(100deg, #08DCC5 0%, #00EBC0 48%, #00E85A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-green {
+  background: linear-gradient(100deg, #08DCC5 0%, #00EBC0 48%, #00E85A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-electric {
+  background: linear-gradient(100deg, #08DCC5 0%, #00EBC0 48%, #00E85A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #08DCC5 0%, #00EBC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-evion-gradient {
+  background: var(--evion-gradient);
+}
+
+.bg-gradient-mint {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5F8F6 100%);
+}
+
+.bg-gradient-radial-mint {
+  background: radial-gradient(circle at 50% 50%, rgba(8, 220, 197, 0.15) 0%, rgba(0, 232, 90, 0.08) 40%, rgba(255, 255, 255, 0) 70%);
+}
+
+/* Wave animation */
+@keyframes waveAnim {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-25%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-wave {
+  animation: waveAnim 4s ease-in-out infinite;
+}
+
+/* Pulse ring */
+@keyframes pulseRing {
+  0% { transform: scale(0.95); opacity: 0.9; }
+  50% { transform: scale(1.15); opacity: 0.25; }
+  100% { transform: scale(0.95); opacity: 0.9; }
+}
+
+.animate-pulse-ring {
+  animation: pulseRing 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Smooth hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Poster Headline Typography matching editorial reference */
+.font-poster {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+  line-height: 0.90;
+}
+
+.glow-cyan-sm {
+  box-shadow: 0 0 14px rgba(56, 239, 214, 0.35);
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #38EFD6 0%, #14B8A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
