@@ -28,11 +28,11 @@ export default function AboutPage() {
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-charcoal tracking-tight max-w-4xl mx-auto leading-tight">
+          <h1 className="font-lato section-heading !text-4xl sm:!text-5xl lg:!text-6xl font-extrabold text-charcoal tracking-tight max-w-4xl mx-auto leading-tight">
             Accelerating Clean Mobility Through <span className="text-gradient-green">Reliable EV Charging</span>
           </h1>
 
-          <p className="mt-6 text-lg sm:text-xl text-secondary-text max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-6 body-text max-w-2xl mx-auto">
             EVION was founded with one clear purpose: to build the world&apos;s most dependable, high-power electric vehicle charging network.
           </p>
         </div>
@@ -57,13 +57,13 @@ export default function AboutPage() {
             <span className="text-xs font-bold uppercase tracking-wider text-electric-green-deep">
               THE PROBLEM WE SOLVE
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight">
+            <h2 className="font-lato section-heading !text-3xl sm:!text-4xl font-extrabold text-charcoal tracking-tight">
               Eliminating EV Charging Frustration
             </h2>
-            <p className="text-secondary-text leading-relaxed">
+            <p className="body-text leading-relaxed">
               Transitioning to electric mobility shouldn’t mean dealing with broken chargers, incompatible cables, unreadable screens in bright sunlight, or mandatory mobile app subscriptions.
             </p>
-            <p className="text-secondary-text leading-relaxed">
+            <p className="body-text leading-relaxed">
               EVION eliminates these pain points by pairing 350kW liquid-cooled hardware with 99.98% monitored uptime and universal contactless tap-to-pay.
             </p>
             <div className="pt-2 flex items-center gap-4 text-sm font-bold text-charcoal">
@@ -116,10 +116,10 @@ export default function AboutPage() {
 
         {/* Call to action */}
         <div className="text-center p-12 rounded-3xl bg-soft-white border border-light-border shadow-soft">
-          <h3 className="text-2xl sm:text-3xl font-extrabold text-charcoal">
+          <h3 className="font-lato section-heading !text-2xl sm:!text-3xl font-extrabold text-charcoal">
             Ready to experience the next generation of charging?
           </h3>
-          <p className="text-sm text-secondary-text max-w-lg mx-auto mt-2 mb-6">
+          <p className="body-text max-w-lg mx-auto mt-2 mb-6 text-base">
             Find your closest high-power EVION charging station or talk to us about bringing charging to your property.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

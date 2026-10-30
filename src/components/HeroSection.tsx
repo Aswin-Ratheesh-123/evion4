@@ -37,7 +37,7 @@ export const HeroSection: React.FC = () => {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-charcoal tracking-tight leading-[1.08] font-sans">
+            <h1 className="font-lato section-heading !text-4xl sm:!text-5xl lg:!text-6xl font-extrabold text-charcoal tracking-tight leading-[1.08]">
               Power Your Journey.{' '}
               <span className="block mt-1 text-gradient-green">
                 Charge Into Tomorrow.
@@ -45,7 +45,7 @@ export const HeroSection: React.FC = () => {
             </h1>
 
             {/* Supporting Text */}
-            <p className="text-base sm:text-lg text-secondary-text leading-relaxed max-w-xl">
+            <p className="body-text max-w-xl">
               Discover smarter EV charging with seamless access to charging stations, intelligent charging experiences, and a more connected electric future.
             </p>
 

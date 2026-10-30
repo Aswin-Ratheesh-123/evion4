@@ -82,11 +82,11 @@ export const BusinessSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-charcoal tracking-tight">
+          <h2 className="font-lato section-heading !text-3xl sm:!text-4xl lg:!text-5xl text-charcoal tracking-tight">
             Bring Smarter Charging to <span className="text-gradient-green">Your Location</span>
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="body-text mt-4 max-w-2xl mx-auto">
             Explore EV charging solutions for workplaces, commercial properties, hospitality locations, and other destinations.
           </p>
         </div>
@@ -110,18 +110,18 @@ export const BusinessSection: React.FC = () => {
                     </span>
                   </div>
 
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-secondary-text block mb-1">
+                  <span className="font-lato text-[11px] font-bold uppercase tracking-wider text-secondary-text block mb-1">
                     {item.category}
                   </span>
-                  <h3 className="text-2xl font-bold text-charcoal mb-3">
+                  <h3 className="font-lato section-heading text-xl sm:text-2xl font-bold text-charcoal mb-3">
                     {item.title}
                   </h3>
-                  <p className="text-secondary-text text-sm leading-relaxed mb-6">
+                  <p className="font-lato body-text !text-sm text-secondary-text leading-relaxed mb-6">
                     {item.description}
                   </p>
 
                   {/* Bullet Benefits */}
-                  <ul className="space-y-2.5 pt-4 border-t border-light-border/70 mb-6">
+                  <ul className="space-y-2.5 pt-4 border-t border-light-border/70 mb-6 font-lato">
                     {item.benefits.map((b, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-xs text-charcoal font-medium">
                         <ShieldCheck className="w-4 h-4 text-electric-green-deep shrink-0 mt-0.5" />
@@ -133,7 +133,7 @@ export const BusinessSection: React.FC = () => {
 
                 <Link
                   href={`/contact?type=business&solution=${item.id}`}
-                  className="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-2xl text-sm font-bold bg-soft-white hover:bg-electric-green text-charcoal border border-light-border hover:border-electric-green transition-all shadow-soft"
+                  className="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-2xl text-sm font-bold font-lato bg-soft-white hover:bg-electric-green text-charcoal border border-light-border hover:border-electric-green transition-all shadow-soft"
                 >
                   <span>Request Site Assessment</span>
                   <ArrowRight className="w-4 h-4" />

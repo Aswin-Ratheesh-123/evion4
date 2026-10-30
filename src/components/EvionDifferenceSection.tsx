@@ -70,12 +70,12 @@ export const EvionDifferenceSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="font-display uppercase text-3xl sm:text-5xl lg:text-6xl text-charcoal tracking-[-0.035em] leading-[0.92]">
-            <span className="font-light block text-charcoal/80">Engineered Around</span>
-            <span className="font-black text-charcoal block">Your Journey.</span>
+          <h2 className="font-lato section-heading !text-3xl sm:!text-5xl lg:!text-6xl text-charcoal tracking-tight font-extrabold leading-tight">
+            <span className="font-semibold block text-charcoal/80">Engineered Around</span>
+            <span className="font-extrabold text-charcoal block">Your Journey.</span>
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="mt-4 body-text max-w-2xl mx-auto">
             Every component of EVION hardware and cloud infrastructure is purpose-built to deliver smooth, reliable, and technologically advanced charging.
           </p>
         </div>
@@ -146,14 +146,14 @@ export const EvionDifferenceSection: React.FC = () => {
                         <span className="text-[10px] font-bold uppercase tracking-wider text-secondary-text block">
                           {item.subtitle}
                         </span>
-                        <h3 className="text-lg font-black text-charcoal">
+                        <h3 className="section-heading text-base sm:text-lg font-bold text-charcoal">
                           {item.title}
                         </h3>
                       </div>
                     </div>
 
                     <div className="text-right shrink-0">
-                      <span className="text-xs font-black text-charcoal block">
+                      <span className="text-xs font-bold text-charcoal block font-lato">
                         {item.metric}
                       </span>
                       <span className="text-[9px] text-secondary-text">
@@ -162,7 +162,7 @@ export const EvionDifferenceSection: React.FC = () => {
                     </div>
                   </div>
 
-                  <p className="mt-4 text-xs sm:text-sm text-secondary-text leading-relaxed">
+                  <p className="mt-4 text-sm font-normal text-secondary-text leading-relaxed font-lato">
                     {item.description}
                   </p>
                 </div>
@@ -176,7 +176,7 @@ export const EvionDifferenceSection: React.FC = () => {
               </span>
               <Link
                 href="/charging-solutions"
-                className="inline-flex items-center gap-1.5 font-bold text-charcoal hover:text-electric-green-dark transition-colors"
+                className="inline-flex items-center gap-1.5 font-bold font-lato text-charcoal hover:text-electric-green-dark transition-colors"
               >
                 <span>View Full Specs</span>
                 <ArrowRight className="w-3.5 h-3.5" />

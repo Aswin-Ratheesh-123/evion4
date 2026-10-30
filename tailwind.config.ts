@@ -49,11 +49,10 @@ const config: Config = {
         "evion-gradient-hover": "linear-gradient(100deg, #19e0cb 0%, #1aedc5 48%, #1ee96c 100%)",
       },
       fontFamily: {
-        sans: ["var(--font-outfit)", "var(--font-plus-jakarta)", "var(--font-inter)", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
-        display: ["var(--font-outfit)", "var(--font-plus-jakarta)", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
-        outfit: ["var(--font-outfit)", "sans-serif"],
-        jakarta: ["var(--font-plus-jakarta)", "sans-serif"],
-        inter: ["var(--font-inter)", "sans-serif"],
+        sans: ["var(--font-lato)", "Lato", "Nunito Sans", "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+        display: ["var(--font-lato)", "Lato", "Nunito Sans", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        lato: ["var(--font-lato)", "Lato", "sans-serif"],
+        heading: ["var(--font-lato)", "Lato", "sans-serif"],
       },
       letterSpacing: {
         tighter: "-0.04em",

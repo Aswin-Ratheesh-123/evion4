@@ -88,10 +88,10 @@ export const BrandManifestoSection: React.FC = () => {
                   <Zap className="w-5 h-5 text-[#14B8A6]" />
                 </div>
                 <div>
-                  <h3 className="font-display uppercase font-bold text-sm tracking-tight text-charcoal">
+                  <h3 className="font-lato font-bold text-base tracking-tight text-charcoal">
                     Ultra-Rapid Delivery
                   </h3>
-                  <p className="text-xs text-secondary-text mt-1 leading-relaxed">
+                  <p className="text-sm text-secondary-text mt-1 leading-relaxed font-normal font-lato">
                     Up to 350 kW liquid-cooled DC hubs charging modern 800V EVs in under 18 minutes.
                   </p>
                 </div>
@@ -102,10 +102,10 @@ export const BrandManifestoSection: React.FC = () => {
                   <Shield className="w-5 h-5 text-electric-green-dark" />
                 </div>
                 <div>
-                  <h3 className="font-display uppercase font-bold text-sm tracking-tight text-charcoal">
+                  <h3 className="font-lato font-bold text-base tracking-tight text-charcoal">
                     99.98% Network Uptime
                   </h3>
-                  <p className="text-xs text-secondary-text mt-1 leading-relaxed">
+                  <p className="text-sm text-secondary-text mt-1 leading-relaxed font-normal font-lato">
                     Automated cloud diagnostics, ISO 15118 Autocharge handshake, and renewable grid balancing.
                   </p>
                 </div>

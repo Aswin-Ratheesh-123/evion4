@@ -55,12 +55,12 @@ export const ChargingInfrastructureSection: React.FC = () => {
               </span>
             </div>
 
-            <h2 className="font-display uppercase text-3xl sm:text-5xl lg:text-6xl text-charcoal tracking-[-0.035em] leading-[0.92]">
-              <span className="font-light block text-charcoal/80">Building the Future</span>
-              <span className="font-black text-charcoal block">Of EV Charging.</span>
+            <h2 className="font-lato section-heading !text-3xl sm:!text-5xl lg:!text-6xl text-charcoal tracking-tight font-extrabold leading-tight">
+              <span className="font-semibold block text-charcoal/80">Building the Future</span>
+              <span className="font-extrabold text-charcoal block">Of EV Charging.</span>
             </h2>
 
-            <p className="text-base sm:text-lg text-secondary-text leading-relaxed font-normal">
+            <p className="body-text leading-relaxed">
               EVION deploys high-capacity charging infrastructure that bridges metropolitan centers with long-distance travel corridors. Engineered for seamless grid interaction, load-balanced megawatt capacities, and zero-downtime reliability.
             </p>
 
@@ -111,7 +111,7 @@ export const ChargingInfrastructureSection: React.FC = () => {
             <div className="flex flex-wrap items-center gap-4 pt-4">
               <Link
                 href="/business"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl text-xs font-bold bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all duration-300 shadow-[0_4px_20px_rgba(8,220,197,0.35)] hover:shadow-[0_0_30px_rgba(8,220,197,0.5)] border border-white/20"
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl text-sm sm:text-base font-bold font-lato bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all duration-300 shadow-[0_4px_20px_rgba(8,220,197,0.35)] hover:shadow-[0_0_30px_rgba(8,220,197,0.5)] border border-white/20"
               >
                 <span>Enterprise Infrastructure</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -119,7 +119,7 @@ export const ChargingInfrastructureSection: React.FC = () => {
 
               <button
                 onClick={() => setShowInteractive3D(!showInteractive3D)}
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl text-xs font-bold bg-white hover:bg-light-gray border border-light-border text-charcoal transition-all shadow-soft cursor-pointer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl text-sm sm:text-base font-bold font-lato bg-white hover:bg-light-gray border border-light-border text-charcoal transition-all shadow-soft cursor-pointer"
               >
                 <RotateCw className="w-3.5 h-3.5 text-electric-green-dark" />
                 <span>{showInteractive3D ? 'Show Studio Photo' : 'Explore Interactive 3D Model'}</span>

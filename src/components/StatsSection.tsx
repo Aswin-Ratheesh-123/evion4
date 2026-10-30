@@ -58,15 +58,15 @@ export const StatsSection: React.FC = () => {
                   </span>
                 </div>
 
-                <div className="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight font-sans mb-1">
+                <div className="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight font-lato mb-1">
                   {metric.value}
                 </div>
 
-                <h4 className="text-sm font-bold text-charcoal mb-1">
+                <h4 className="text-base font-bold text-charcoal mb-1 font-lato">
                   {metric.label}
                 </h4>
 
-                <p className="text-xs text-secondary-text leading-relaxed">
+                <p className="text-sm text-secondary-text leading-relaxed font-normal font-lato">
                   {metric.detail}
                 </p>
               </div>

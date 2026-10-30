@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400;1,6..12,700&display=swap');
 
 :root {
-  --font-outfit: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-plus-jakarta: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-display: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-poster: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-lato: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-poster: 'Lato', sans-serif;
+  --font-outfit: 'Lato', sans-serif;
+  --font-plus-jakarta: 'Lato', sans-serif;
+  --font-inter: 'Lato', sans-serif;
   
   /* EVION Turquoise-to-Neon-Green Design System */
   --evion-turquoise: #08DCC5;
@@ -76,12 +78,37 @@ html.lenis, html.lenis body {
 }
 
 body {
-  font-family: var(--font-outfit), var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-lato), 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: #FFFFFF;
   color: #071A16;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reusable Global Typography System matching reference specification */
+.section-heading {
+  font-family: var(--font-lato), 'Lato', sans-serif;
+  font-size: clamp(22px, 2vw, 27px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.4px;
+}
+
+.body-text {
+  font-family: var(--font-lato), 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #444444;
+}
+
+.link-prominent {
+  font-family: var(--font-lato), 'Lato', sans-serif;
+  font-size: clamp(18px, 1.2vw, 20px);
+  font-weight: 700;
+  transition: all 0.25s ease;
 }
 
 /* Custom modern scrollbar */
@@ -106,6 +133,8 @@ body {
 .btn-evion-primary {
   background: var(--evion-gradient);
   color: #071A16;
+  font-family: var(--font-lato), 'Lato', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 18px;
@@ -125,6 +154,8 @@ body {
 .btn-evion-secondary {
   background: #FFFFFF;
   color: #071A16;
+  font-family: var(--font-lato), 'Lato', sans-serif;
+  font-size: 16px;
   font-weight: 600;
   border: 1px solid #DCE7E2;
   border-radius: 18px;

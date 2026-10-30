@@ -119,12 +119,12 @@ export const ChargingSolutionsSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="font-display uppercase text-3xl sm:text-5xl lg:text-6xl text-charcoal tracking-[-0.035em] leading-[0.92]">
-            <span className="font-light block text-charcoal/80">Charging That</span>
-            <span className="font-black text-charcoal block">Moves You Forward.</span>
+          <h2 className="font-lato section-heading !text-3xl sm:!text-5xl text-charcoal tracking-tight font-bold leading-tight">
+            <span className="font-semibold block text-charcoal/80">Charging That</span>
+            <span className="font-extrabold text-charcoal block">Moves You Forward.</span>
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="mt-4 body-text max-w-2xl mx-auto">
             Tailored charging solutions engineered for modern electric mobility—from residential homes to enterprise fleets and high-speed highway corridors.
           </p>
         </div>
@@ -161,7 +161,7 @@ export const ChargingSolutionsSection: React.FC = () => {
 
                     {/* Headline overlay bottom */}
                     <div className="absolute bottom-4 left-4 right-4">
-                      <h3 className="text-2xl font-black text-white tracking-tight">
+                      <h3 className="section-heading text-xl sm:text-2xl font-bold text-white tracking-tight !leading-snug">
                         {solution.title}
                       </h3>
                     </div>
@@ -169,10 +169,10 @@ export const ChargingSolutionsSection: React.FC = () => {
 
                   {/* Card Content */}
                   <div className="p-7">
-                    <p className="text-sm font-semibold text-charcoal mb-2">
+                    <p className="text-base font-semibold text-charcoal mb-2 font-lato">
                       {solution.headline}
                     </p>
-                    <p className="text-xs text-secondary-text leading-relaxed mb-6">
+                    <p className="text-sm font-normal text-secondary-text leading-relaxed mb-6 font-lato">
                       {solution.description}
                     </p>
 
@@ -230,16 +230,16 @@ export const ChargingSolutionsSection: React.FC = () => {
                 <selectedSolution.icon className="w-6 h-6 text-electric-green-dark" />
               </div>
               <div>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-secondary-text">
+                <span className="font-lato text-[10px] font-bold uppercase tracking-widest text-secondary-text">
                   {selectedSolution.category} Specification
                 </span>
-                <h3 className="text-2xl font-black text-charcoal">
+                <h3 className="font-lato section-heading !text-2xl font-bold text-charcoal">
                   {selectedSolution.title}
                 </h3>
               </div>
             </div>
 
-            <p className="text-sm text-secondary-text leading-relaxed mb-6">
+            <p className="font-lato text-sm text-secondary-text leading-relaxed mb-6">
               {selectedSolution.description}
             </p>
 

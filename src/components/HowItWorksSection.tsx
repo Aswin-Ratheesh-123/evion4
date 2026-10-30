@@ -69,11 +69,11 @@ export const HowItWorksSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-charcoal tracking-tight">
+          <h2 className="font-lato section-heading !text-3xl sm:!text-4xl lg:!text-5xl font-extrabold text-charcoal tracking-tight">
             Three Simple Steps to <span className="text-gradient-green">Get Charged</span>
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="mt-4 body-text max-w-2xl mx-auto">
             From discovering an ultra-fast hub to driving away with full power—experience effortless electric mobility.
           </p>
         </div>

@@ -33,13 +33,13 @@ export const ContactCtaSection: React.FC = () => {
         </div>
 
         {/* Headline */}
-        <h2 className="font-display uppercase text-3xl sm:text-5xl lg:text-6xl text-charcoal tracking-[-0.035em] leading-[0.92]">
-          <span className="font-light block text-charcoal/80">Ready to Power</span>
-          <span className="font-black text-charcoal block">What's Next?</span>
+        <h2 className="font-lato section-heading !text-3xl sm:!text-5xl lg:!text-6xl text-charcoal tracking-tight font-extrabold leading-tight">
+          <span className="font-semibold block text-charcoal/80">Ready to Power</span>
+          <span className="font-extrabold text-charcoal block">What's Next?</span>
         </h2>
 
         {/* Supporting Text */}
-        <p className="mt-4 sm:mt-6 text-base sm:text-xl text-secondary-text max-w-2xl mx-auto leading-relaxed font-normal">
+        <p className="mt-4 sm:mt-6 body-text max-w-2xl mx-auto">
           Let's build a better charging experience together. Whether you need residential home charging, workplace fleet deployment, or ultra-fast public charging infrastructure.
         </p>
 
@@ -47,7 +47,7 @@ export const ContactCtaSection: React.FC = () => {
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <button
             onClick={scrollToSolutions}
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl text-sm font-bold bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all duration-300 shadow-[0_4px_25px_rgba(8,220,197,0.4)] hover:shadow-[0_0_35px_rgba(8,220,197,0.55)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer border border-white/20"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl text-base font-bold font-lato bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all duration-300 shadow-[0_4px_25px_rgba(8,220,197,0.4)] hover:shadow-[0_0_35px_rgba(8,220,197,0.55)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer border border-white/20"
           >
             <span>Explore Solutions</span>
             <ArrowRight className="w-4 h-4 text-[#071A16]" />
@@ -55,7 +55,7 @@ export const ContactCtaSection: React.FC = () => {
 
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl text-sm font-bold bg-white hover:bg-light-gray border border-light-border text-charcoal hover:border-turquoise transition-all duration-300 shadow-soft hover:-translate-y-0.5 active:translate-y-0"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl text-base font-bold font-lato bg-white hover:bg-light-gray border border-light-border text-charcoal hover:border-turquoise transition-all duration-300 shadow-soft hover:-translate-y-0.5 active:translate-y-0"
           >
             <PhoneCall className="w-4 h-4 text-turquoise" />
             <span>Contact Our Team</span>

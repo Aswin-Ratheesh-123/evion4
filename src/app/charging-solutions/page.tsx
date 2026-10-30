@@ -41,11 +41,11 @@ export default function ChargingSolutionsPage() {
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-charcoal tracking-tight max-w-4xl mx-auto leading-tight">
+          <h1 className="font-lato section-heading !text-4xl sm:!text-5xl lg:!text-6xl font-extrabold text-charcoal tracking-tight max-w-4xl mx-auto leading-tight">
             High-Performance Charging for <span className="text-gradient-green">Every Electric Journey</span>
           </h1>
 
-          <p className="mt-6 text-lg sm:text-xl text-secondary-text max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-6 body-text max-w-2xl mx-auto">
             From 350kW liquid-cooled highway hubs to smart destination AC charging, EVION delivers reliable, rapid power tailored to modern EVs.
           </p>
 

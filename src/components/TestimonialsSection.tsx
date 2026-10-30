@@ -51,11 +51,11 @@ export const TestimonialsSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-charcoal tracking-tight">
+          <h2 className="font-lato section-heading !text-3xl sm:!text-4xl lg:!text-5xl text-charcoal tracking-tight">
             Built Around the <span className="text-gradient-green">EV Charging Experience</span>
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="body-text mt-4 max-w-2xl mx-auto">
             Real feedback from electric drivers on long-distance routes and commercial property partners hosting EVION hubs.
           </p>
         </div>
@@ -82,20 +82,20 @@ export const TestimonialsSection: React.FC = () => {
 
                 <Quote className="w-8 h-8 text-electric-green/40 mb-3" />
 
-                <p className="text-charcoal text-sm leading-relaxed mb-6 font-medium">
+                <p className="font-lato text-charcoal text-sm leading-relaxed mb-6 font-normal">
                   &ldquo;{item.quote}&rdquo;
                 </p>
               </div>
 
               {/* Author Info */}
               <div className="pt-4 border-t border-light-border/70 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-soft-white border border-light-border flex items-center justify-center font-bold text-charcoal text-sm">
+                <div className="w-10 h-10 rounded-full bg-soft-white border border-light-border flex items-center justify-center font-bold text-charcoal text-sm font-lato">
                   {item.author.charAt(0)}
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-charcoal">{item.author}</h4>
-                  <p className="text-xs text-secondary-text">{item.role}</p>
-                  <span className="text-[10px] text-electric-green-deep font-semibold">
+                  <h4 className="font-lato text-sm font-bold text-charcoal">{item.author}</h4>
+                  <p className="font-lato text-xs text-secondary-text">{item.role}</p>
+                  <span className="font-lato text-[10px] text-electric-green-deep font-semibold">
                     {item.vehicleOrFacility}
                   </span>
                 </div>

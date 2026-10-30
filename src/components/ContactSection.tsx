@@ -104,11 +104,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialType = 'G
             </span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-charcoal tracking-tight">
+          <h2 className="font-lato section-heading !text-3xl sm:!text-4xl lg:!text-5xl text-charcoal tracking-tight font-extrabold leading-tight">
             Let&apos;s Power the <span className="text-gradient-green">Electric Future</span> Together
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="mt-4 body-text max-w-2xl mx-auto">
             Have a question about EV charging or exploring charging solutions for your business? We&apos;d love to hear from you.
           </p>
         </div>
@@ -118,8 +118,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialType = 'G
           {/* Left Column: Direct channels & WhatsApp (5 cols) */}
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-white rounded-3xl p-8 border border-light-border shadow-soft">
-              <h3 className="text-xl font-bold text-charcoal mb-3">Direct EVION Support</h3>
-              <p className="text-sm text-secondary-text leading-relaxed mb-6">
+              <h3 className="font-lato section-heading !text-xl font-bold text-charcoal mb-3">Direct EVION Support</h3>
+              <p className="font-lato text-sm text-secondary-text leading-relaxed mb-6">
                 Whether you need immediate charging bay assistance or want to schedule an enterprise commercial site survey, our team is standing by.
               </p>
 
@@ -199,8 +199,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialType = 'G
           {/* Right Column: Contact Form (7 cols) */}
           <div className="lg:col-span-7">
             <div className="bg-white rounded-3xl p-8 sm:p-10 border border-light-border shadow-soft">
-              <h3 className="text-2xl font-bold text-charcoal mb-1">Send an Enquiry</h3>
-              <p className="text-xs text-secondary-text mb-6">
+              <h3 className="font-lato section-heading !text-2xl font-bold text-charcoal mb-1">Send an Enquiry</h3>
+              <p className="font-lato text-xs text-secondary-text mb-6">
                 Fill in your details below and an EVION charging specialist will assist you.
               </p>
 
@@ -308,7 +308,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialType = 'G
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full inline-flex items-center justify-center gap-2 py-4 rounded-2xl text-base font-bold bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all shadow-[0_4px_25px_rgba(8,220,197,0.4)] hover:shadow-[0_0_35px_rgba(8,220,197,0.55)] disabled:opacity-50 cursor-pointer border border-white/20"
+                  className="w-full inline-flex items-center justify-center gap-2 py-4 rounded-2xl text-base font-bold font-lato bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all shadow-[0_4px_25px_rgba(8,220,197,0.4)] hover:shadow-[0_0_35px_rgba(8,220,197,0.55)] disabled:opacity-50 cursor-pointer border border-white/20"
                 >
                   {isSubmitting ? (
                     <>

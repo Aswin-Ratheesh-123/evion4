@@ -86,12 +86,12 @@ export const ChargingExperienceSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="font-display uppercase text-3xl sm:text-5xl lg:text-6xl font-black text-charcoal tracking-[-0.035em] leading-[0.92]">
+          <h2 className="font-lato section-heading !text-3xl sm:!text-5xl lg:!text-6xl text-charcoal tracking-tight font-extrabold leading-tight">
             CONNECT <span className="text-transparent bg-clip-text bg-gradient-to-r from-turquoise to-neon-green">→</span> CHARGE{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-turquoise to-neon-green">→</span> CONTINUE
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="mt-4 body-text max-w-2xl mx-auto">
             Three frictionless steps engineered for maximum simplicity, transparency, and speed.
           </p>
         </div>
@@ -144,12 +144,12 @@ export const ChargingExperienceSection: React.FC = () => {
                     </div>
 
                     {/* Headline */}
-                    <h3 className="text-xl font-bold text-charcoal mb-3">
+                    <h3 className="section-heading text-lg sm:text-xl font-bold text-charcoal mb-3 !leading-snug">
                       {step.headline}
                     </h3>
 
                     {/* Description */}
-                    <p className="text-secondary-text text-xs sm:text-sm leading-relaxed mb-6">
+                    <p className="text-secondary-text text-sm sm:text-base font-normal leading-relaxed mb-6 font-lato">
                       {step.description}
                     </p>
 

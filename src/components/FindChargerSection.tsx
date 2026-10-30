@@ -70,12 +70,12 @@ export const FindChargerSection: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="font-display uppercase text-3xl sm:text-4xl lg:text-5xl text-charcoal tracking-[-0.035em] leading-[0.92]">
-            <span className="font-light block text-charcoal/80">Your Next Charge Is</span>
-            <span className="font-black text-charcoal block">Closer Than You Think.</span>
+          <h2 className="font-lato section-heading !text-3xl sm:!text-4xl lg:!text-5xl text-charcoal tracking-tight font-extrabold leading-tight">
+            <span className="font-semibold block text-charcoal/80">Your Next Charge Is</span>
+            <span className="font-extrabold text-charcoal block">Closer Than You Think.</span>
           </h2>
 
-          <p className="mt-4 text-base sm:text-lg text-secondary-text leading-relaxed">
+          <p className="mt-4 body-text max-w-2xl mx-auto">
             Explore charging locations and plan your next stop with confidence. Real-time availability, connector speeds, and verified hub amenities.
           </p>
         </div>
@@ -348,7 +348,7 @@ export const FindChargerSection: React.FC = () => {
 
                       <Link
                         href={`/find-chargers?station=${selectedStation.id}`}
-                        className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-bold bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all shadow-[0_2px_12px_rgba(8,220,197,0.3)] border border-white/20"
+                        className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-bold font-lato bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all shadow-[0_2px_12px_rgba(8,220,197,0.3)] border border-white/20"
                       >
                         <span>Full Details</span>
                         <ArrowRight className="w-3.5 h-3.5 text-[#071A16]" />

@@ -38,10 +38,10 @@ export const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-xs font-extrabold uppercase tracking-wider text-charcoal mb-4">
+            <h4 className="font-lato text-xs font-bold uppercase tracking-wider text-charcoal mb-4">
               Charging Solutions
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm">
+            <ul className="space-y-2.5 text-xs sm:text-sm font-lato">
               <li>
                 <Link
                   href="/charging-solutions"
@@ -89,10 +89,10 @@ export const Footer: React.FC = () => {
 
           {/* Enterprise & Business */}
           <div>
-            <h4 className="text-xs font-extrabold uppercase tracking-wider text-charcoal mb-4">
+            <h4 className="font-lato text-xs font-bold uppercase tracking-wider text-charcoal mb-4">
               Infrastructure
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm">
+            <ul className="space-y-2.5 text-xs sm:text-sm font-lato">
               <li>
                 <Link
                   href="/business"
@@ -131,10 +131,10 @@ export const Footer: React.FC = () => {
 
           {/* Company & Support */}
           <div>
-            <h4 className="text-xs font-extrabold uppercase tracking-wider text-charcoal mb-4">
+            <h4 className="font-lato text-xs font-bold uppercase tracking-wider text-charcoal mb-4">
               Company & Help
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm">
+            <ul className="space-y-2.5 text-xs sm:text-sm font-lato">
               <li>
                 <Link
                   href="/about"

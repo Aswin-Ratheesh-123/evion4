@@ -271,7 +271,7 @@ export const Navbar: React.FC = memo(function Navbar() {
                     href={item.href}
                     onClick={(e) => handleAnchorClick(e, item.href)}
                     aria-current={isCurrent ? 'page' : undefined}
-                    className={`relative px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all duration-200 group flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric-green ${
+                    className={`relative px-3 py-1.5 rounded-full text-xs font-semibold font-lato tracking-wide transition-all duration-200 group flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric-green ${
                       isCurrent
                         ? isDark
                           ? 'text-white bg-white/15 font-bold shadow-soft'
@@ -299,7 +299,7 @@ export const Navbar: React.FC = memo(function Navbar() {
             <div className="flex items-center gap-2 xl:gap-3 shrink-0">
               <Link
                 href="/find-chargers"
-                className={`text-xs font-bold transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-turquoise ${
+                className={`text-xs font-bold font-lato transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-turquoise ${
                   isDark
                     ? 'text-white/80 hover:text-white hover:bg-white/10'
                     : 'text-charcoal hover:text-turquoise hover:bg-light-gray'
@@ -312,7 +312,7 @@ export const Navbar: React.FC = memo(function Navbar() {
               {/* Primary CTA */}
               <Link
                 href="/contact"
-                className="relative inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2 rounded-full text-xs font-bold bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all duration-300 shadow-[0_0_20px_rgba(8,220,197,0.35)] hover:shadow-[0_0_28px_rgba(8,220,197,0.5)] hover:-translate-y-0.5 active:translate-y-0 border border-white/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-turquoise"
+                className="relative inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2 rounded-full text-xs font-bold font-lato bg-evion-gradient hover:opacity-95 text-[#071A16] transition-all duration-300 shadow-[0_0_20px_rgba(8,220,197,0.35)] hover:shadow-[0_0_28px_rgba(8,220,197,0.5)] hover:-translate-y-0.5 active:translate-y-0 border border-white/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-turquoise"
               >
                 <Zap className="w-3.5 h-3.5 fill-[#071A16]" />
                 <span>Get in Touch</span>
@@ -399,16 +399,16 @@ export const Navbar: React.FC = memo(function Navbar() {
                 <span className="text-[9px] font-extrabold uppercase tracking-widest text-secondary-text block mb-1">
                   EVION PHILOSOPHY
                 </span>
-                <p className="font-display uppercase tracking-[-0.035em] leading-[0.92] text-xs sm:text-sm text-charcoal">
+                <p className="font-lato uppercase tracking-tight leading-tight text-xs sm:text-sm text-charcoal">
                   <span className="font-light block text-charcoal/80">WE DON'T JUST BUILD CHARGERS.</span>
-                  <span className="font-semibold text-electric-cyan-dark block">WE CONNECT THE WAY</span>
-                  <span className="font-black text-charcoal block">THE WORLD MOVES.</span>
+                  <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-turquoise to-neon-green block">WE CONNECT THE WAY</span>
+                  <span className="font-bold text-charcoal block">THE WORLD MOVES.</span>
                 </p>
               </div>
 
               {/* Numbered Navigation Links Group */}
               <nav aria-label="Mobile Navigation Links" className="space-y-1">
-                <p className="text-[10px] font-black uppercase tracking-widest text-secondary-text px-3 mb-1.5 font-display">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-secondary-text px-3 mb-1.5 font-lato">
                   Index
                 </p>
                 {MOBILE_NAV_ITEMS.map((item) => {
@@ -438,8 +438,8 @@ export const Navbar: React.FC = memo(function Navbar() {
                         <div>
                           <div className="flex items-center gap-2">
                             <span
-                              className={`font-display uppercase tracking-[-0.03em] leading-tight text-lg sm:text-xl font-bold ${
-                                isCurrent ? 'text-charcoal font-black' : 'text-charcoal'
+                              className={`font-lato tracking-tight leading-tight text-lg sm:text-xl font-bold ${
+                                isCurrent ? 'text-charcoal font-extrabold' : 'text-charcoal'
                               }`}
                             >
                               {item.label}

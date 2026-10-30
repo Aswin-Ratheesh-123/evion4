@@ -19,8 +19,8 @@ export default function PrivacyPolicyPage() {
             <Lock className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-3xl font-extrabold text-charcoal tracking-tight">Privacy Policy</h1>
-            <p className="text-xs text-secondary-text">Last Updated: October 2026 • EVION Mobility Network</p>
+            <h1 className="font-lato section-heading !text-3xl text-charcoal tracking-tight">Privacy Policy</h1>
+            <p className="font-lato text-xs text-secondary-text">Last Updated: October 2026 • EVION Mobility Network</p>
           </div>
         </div>
 

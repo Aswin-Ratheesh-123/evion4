@@ -391,9 +391,9 @@ export const CinematicHeroScroll: React.FC = () => {
               </div>
 
               {/* Headline */}
-              <h1 className="font-display uppercase text-[clamp(1.75rem,7.5vw,2.5rem)] text-white tracking-[-0.035em] leading-[0.92] drop-shadow-md">
+              <h1 className="font-lato uppercase text-[clamp(1.75rem,7.5vw,2.5rem)] text-white tracking-tight leading-tight drop-shadow-md">
                 <span className="font-light block text-white/90">Powering Every</span>
-                <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">Journey.</span>
+                <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">Journey.</span>
               </h1>
 
               {/* Supporting Description */}
@@ -451,9 +451,9 @@ export const CinematicHeroScroll: React.FC = () => {
                 <span>Cinematic EV Charging Experience</span>
               </div>
 
-              <h1 className="font-display uppercase text-5xl lg:text-7xl text-white tracking-[-0.035em] leading-[0.92] drop-shadow-md">
+              <h1 className="font-lato uppercase text-5xl lg:text-7xl text-white tracking-tight leading-[1.05] drop-shadow-md">
                 <span className="font-light block text-white/90">Powering Every</span>
-                <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">Journey.</span>
+                <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">Journey.</span>
               </h1>
 
               <p className="mt-5 text-lg lg:text-xl text-white/85 max-w-xl font-normal leading-relaxed drop-shadow-sm">
@@ -518,9 +518,9 @@ export const CinematicHeroScroll: React.FC = () => {
               PRECISION CINEMATICS
             </span>
 
-            <h2 className="font-display uppercase text-xl sm:text-4xl lg:text-5xl text-white tracking-[-0.035em] leading-[0.92]">
+            <h2 className="font-lato uppercase text-xl sm:text-4xl lg:text-5xl text-white tracking-tight leading-tight">
               <span className="font-light block text-white/90">Every Drive</span>
-              <span className="font-black text-electric-green block">Deserves Better.</span>
+              <span className="font-extrabold text-electric-green block">Deserves Better.</span>
             </h2>
 
             <p className="mt-2 sm:mt-4 text-xs sm:text-base text-white/80 leading-relaxed font-normal">
@@ -568,9 +568,9 @@ export const CinematicHeroScroll: React.FC = () => {
               </span>
             </div>
 
-            <h2 className="font-display uppercase text-xl sm:text-4xl text-white tracking-[-0.035em] leading-[0.92]">
+            <h2 className="font-lato uppercase text-xl sm:text-4xl text-white tracking-tight leading-tight">
               <span className="font-light block text-white/90">Meet a Smarter</span>
-              <span className="font-black text-electric-green block">Way to Charge.</span>
+              <span className="font-extrabold text-electric-green block">Way to Charge.</span>
             </h2>
 
             <p className="mt-2 sm:mt-4 text-xs sm:text-sm text-white/80 leading-relaxed font-normal">
@@ -624,8 +624,8 @@ export const CinematicHeroScroll: React.FC = () => {
               <CheckCircle2 className="w-7 h-7 sm:w-9 sm:h-9" />
             </div>
 
-            <h2 className="font-display uppercase text-2xl sm:text-4xl lg:text-5xl text-white tracking-[-0.035em] leading-[0.92]">
-              <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">100% Ready</span>
+            <h2 className="font-lato uppercase text-2xl sm:text-4xl lg:text-5xl text-white tracking-tight leading-tight">
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">100% Ready</span>
               <span className="font-light text-white/90 block">for What's Next.</span>
             </h2>
 
@@ -657,9 +657,9 @@ export const CinematicHeroScroll: React.FC = () => {
               THE NEXT HORIZON
             </span>
 
-            <h2 className="font-display uppercase text-3xl sm:text-5xl lg:text-6xl text-charcoal tracking-[-0.035em] leading-[0.92]">
+            <h2 className="font-lato uppercase text-3xl sm:text-5xl lg:text-6xl text-charcoal tracking-tight leading-tight">
               <span className="font-light block text-charcoal/80">Your Journey.</span>
-              <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">Electrified.</span>
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-turquoise via-cyan to-neon-green block">Electrified.</span>
             </h2>
 
             <p className="mt-3 sm:mt-5 text-xs sm:text-xl text-secondary-text leading-relaxed max-w-xl mx-auto font-normal">

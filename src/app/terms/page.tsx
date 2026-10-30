@@ -19,8 +19,8 @@ export default function TermsPage() {
             <FileText className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-3xl font-extrabold text-charcoal tracking-tight">Terms and Conditions</h1>
-            <p className="text-xs text-secondary-text">Effective Date: October 2026 • EVION Network Agreement</p>
+            <h1 className="font-lato section-heading !text-3xl text-charcoal tracking-tight">Terms and Conditions</h1>
+            <p className="font-lato text-xs text-secondary-text">Effective Date: October 2026 • EVION Network Agreement</p>
           </div>
         </div>
 

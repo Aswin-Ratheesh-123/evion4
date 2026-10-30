@@ -11,13 +11,13 @@ export default function ContactPage() {
       {/* Top Banner */}
       <section className="py-12 md:py-16 bg-soft-white border-b border-light-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-xs font-bold uppercase tracking-wider text-electric-green-deep">
+          <span className="font-lato text-xs font-bold uppercase tracking-wider text-electric-green-deep">
             SUPPORT & COMMERCIAL ENQUIRIES
           </span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-charcoal tracking-tight mt-1">
+          <h1 className="font-lato section-heading !text-4xl sm:!text-5xl text-charcoal tracking-tight mt-1">
             We&apos;re Here to Help You Charge
           </h1>
-          <p className="mt-3 text-base sm:text-lg text-secondary-text max-w-xl mx-auto">
+          <p className="body-text mt-3 max-w-xl mx-auto">
             Get in touch with EVION driver support, network operations, or our commercial charging team.
           </p>
         </div>
